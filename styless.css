@@ -114,3 +114,28 @@ li {
     font-size: 38px;
     font-weight: bolder;
 }
+
+.quote-container {
+    background-color: #e5e7eb;
+    margin-top: 50px;
+    padding: 80px 300px 80px 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+    margin-bottom: 5px;
+    max-width: 700px;
+}
+
+.author {
+    font-weight: bold;
+    align-self: center;
+    margin: 0;
+    padding-right: 48px;
+}
