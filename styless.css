@@ -76,3 +76,41 @@ img {
     border: none;
     margin-top: 2.5px;
 }
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-grid {
+    max-width: 200px;
+    max-height: 200px;
+    margin: 0 18px 0 18px;
+}
+
+.text-grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texts {
+    text-align: center;
+    max-width: 200px;
+    max-height: 200px;
+    color: black;
+    margin-top: 4px;
+}
+
+.info {
+    font-size: 38px;
+    font-weight: bolder;
+}
