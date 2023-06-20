@@ -1,10 +1,10 @@
-body {
+html, body {
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
 
-header {
+header, footer {
     background-color: #1f2937;
 }
 
@@ -13,6 +13,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     margin: auto;
+    padding-left: 253px;
 }
 
 ul {
@@ -23,6 +24,7 @@ ul {
     font-size: 18px;
     color: #e5e7eb;
     margin-right: 15px;
+    padding-right: 220px;
 }
 
 .logo {
@@ -34,7 +36,7 @@ ul {
 .hero {
     padding: 35px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     background-color: #1f2937;
 }
@@ -75,6 +77,12 @@ img {
     border-radius: 5px;
     border: none;
     margin-top: 2.5px;
+    cursor: pointer;
+}
+
+.button-1:hover {
+    cursor: pointer;
+    background-color: #3822ff;
 }
 
 section {
@@ -88,12 +96,18 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .image-grid {
     max-width: 200px;
     max-height: 200px;
     margin: 0 18px 0 18px;
+}
+
+.images {
+    padding-right: 40px;
+    margin-right: 0;
 }
 
 .text-grid {
@@ -138,4 +152,59 @@ li {
     align-self: center;
     margin: 0;
     padding-right: 48px;
+}
+
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-container {
+    padding: 25px 100px 25px 100px;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px;
+    width: 1000px;
+    border-radius: 5px;
+}
+
+.action-button {
+    max-width: 100px;
+    padding: 6px 25px 6px 25px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 10px;
+    border: 1px solid #e5e7eb;
+    cursor: pointer;
+}
+
+.action-button:hover {
+    background-color: #1f2937;
+}
+
+h3 {
+    font-size: 24px;
+    color: #f9faf8;
+    margin-bottom: 5px;
+}
+
+.action-text {
+    margin: 0 0 24px 0;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+footer {
+    margin: 0;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.end {
+    color: #f9faf8;
 }
